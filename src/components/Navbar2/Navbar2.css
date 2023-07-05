@@ -1,0 +1,41 @@
+.nav2{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    color: #4285f4;
+    box-sizing: border-box;
+    display: flex;
+    direction: rtl;
+    box-sizing: content-box;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.Certificate{
+    align-items: center;
+    width: 27px;
+    height: auto;
+    margin-top: 11px;
+    margin-right: 20px;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+}
+.nav2 a{
+    margin-top: 14px;
+    position: relative;
+    direction: rtl;
+}
+a .project{
+    margin-right: auto;
+    direction: rtl;
+}
+.project2{
+    margin-right: auto;
+
+    position: relative;
+    direction: ltr;
+}
+.report{
+    margin-right: 10px;
+    margin-left: 20px;
+    color: rgba(105, 105, 105, 0.603);
+}

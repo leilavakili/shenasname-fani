@@ -1,0 +1,56 @@
+.nav{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: #4285f4;
+    box-sizing: border-box;
+    display: flex;
+    direction: rtl;
+    box-sizing: content-box;
+
+}
+.nav ul{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: 4oo;
+}
+
+.Logo{
+   align-items: center;
+   width: 1.4em;
+   height: auto;
+   margin-top: 11px;
+   margin-right: 20px;
+   cursor: pointer;
+   position: absolute;
+   display: inline-block;
+}
+.nav span{
+    margin-top: 10px;
+    position: relative;
+    font-size: 13px;
+    color: #ffff;
+    direction: rtl;
+}
+.nezam{
+    margin-right: 50px;
+}
+.bell{
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+
+}
+.menu{
+    width: 35px;
+    height: 30px; 
+    margin-top: 13px;
+    margin-left: 5px;  
+} 
