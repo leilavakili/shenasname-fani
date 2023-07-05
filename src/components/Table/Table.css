@@ -3,17 +3,26 @@ table {
     direction: rtl;
     border-bottom: 1px solid rgb(175, 175, 175);
     margin-top: 150px;
+    font-size: 10px;
+    width: 100%;
+    overflow: scroll;
 }
-
 th, td {
-    padding: 10px;
+    padding: 15px 15px ;
     text-align: center;
 }
-
-.white-row {
-    background-color: white;
+tr:nth-child(even){
+    background-color: rgb(225, 225, 225); 
+}
+.Red{
+    width: 13px;
+    height: 13px;
+}
+.Yellow{
+    width: 13px;
+    height: 13px;
+}
+#head {
+    color: rgb(121, 121, 121);
 }
 
-.gray-row {
-    background-color: rgb(225, 225, 225);
-}

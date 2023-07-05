@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import "./Table.css";
+import Red from './R.png';
+import Yellow from './yellow-circle.png';
 class Table extends Component{
 
 render(){
     return(
         
 <table>
-    <tr class="white-row row-1">
+
+    <tr class="white-row row-1" id="head">
         <th></th>
         <th>کد نوسازی</th>
         <th>کد ثبتی سازمان</th>
@@ -22,7 +25,7 @@ render(){
         <th>عملیات</th>
     </tr>
     <tr class="gray-row row-2">
-        <td></td>
+        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
         <td>97589</td>
         <td>2207/20.21</td>
@@ -37,7 +40,7 @@ render(){
         <td></td>
     </tr>
     <tr class="white-row row-3">
-        <td></td>
+        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
         <td>222391</td>
         <td>232231124422</td>
@@ -52,7 +55,7 @@ render(){
         <td></td>
     </tr>
     <tr class="gray-row row-4">
-        <td></td>
+        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
         <td>137835 </td>
         <td>10613/318</td>
@@ -67,7 +70,7 @@ render(){
         <td></td>
     </tr>
     <tr class="white-row row-5">
-        <td></td>
+        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
         <td>202181</td>
         <td>124564189</td>
@@ -82,7 +85,7 @@ render(){
         <td></td>
     </tr>
     <tr class="gray-row row-6">
-        <td></td>
+        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
         <td>202181</td>
         <td>124564189</td>
@@ -97,7 +100,7 @@ render(){
         <td></td>
     </tr>
     <tr class="white-row row-7">
-        <td></td>
+        <td><img src={Red} className="Red" alt="Red"/></td>
         <td>2-5-6-3-1</td>
         <td>47585</td>
         <td>1864</td>
