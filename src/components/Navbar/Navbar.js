@@ -11,8 +11,10 @@ render(){
         <img src={Logo} className="Logo" alt="Logo"/>
         <span className='nezam'>سازمان نظام مهندسی</span>
         <span className='sakhteman'>ساختمان استان قم</span>
+    <div className='left'>
         <img src={menu} className="menu" alt="menu"/>
         <img src={bell} className="bell" alt="bell"/>
+    </div>
         </nav>
     )
 }

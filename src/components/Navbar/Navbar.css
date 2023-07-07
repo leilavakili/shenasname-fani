@@ -41,16 +41,19 @@
 .nezam{
     margin-right: 50px;
 }
+.left{
+    margin-right: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
 .bell{
     align-items: center;
     width: 25px;
     height: 25px;
-    margin-top: 15px;
+    margin-left: 10px;
 
 }
 .menu{
     width: 35px;
     height: 30px; 
-    margin-top: 13px;
-    margin-left: 5px;  
 } 

@@ -7,6 +7,9 @@ table {
     width: 100%;
     overflow: scroll;
 }
+#head{
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
 th, td {
     padding: 15px 15px ;
     text-align: center;
@@ -24,5 +27,12 @@ tr:nth-child(even){
 }
 #head {
     color: rgb(121, 121, 121);
+    text-align: right;
 }
-
+table :hover{
+    background-color: rgba(58, 114, 219, 0.182);
+}
+.Note{
+    height: 10px;
+    width: 10px;
+}
