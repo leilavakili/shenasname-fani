@@ -12,19 +12,20 @@ render(){
 
     <tr class="white-row row-1" id="head">
         <th></th>
-        <th>کد نوسازی</th>
-        <th>کد ثبتی سازمان</th>
-        <th>پلاک ثبتی</th>
-        <th>بلوک</th>
-        <th>آدرس</th>
-        <th>مالک</th>
-        <th>کد ملی مالک</th>
-        <th>تلفن مالک</th>
-        <th>تاریخ ایجاد</th>
-        <th>نقش شما</th>
-        <th>وضعیت</th>
-        <th>عملیات</th>
+        <th className='KN'>کد نوسازی</th>
+        <th className='KSS'>کد ثبتی سازمان</th>
+        <th className='PS'>پلاک ثبتی</th>
+        <th className='Block'>بلوک</th>
+        <th className='Adress'>آدرس</th>
+        <th className='Owner'>مالک</th>
+        <th className='NIO'>کد ملی مالک</th>
+        <th className='OT'>تلفن مالک</th>
+        <th className='Date'>تاریخ ایجاد</th>
+        <th className='Rol'>نقش شما</th>
+        <th className='Status'>وضعیت</th>
+        <th className='Opreation'>عملیات</th>
     </tr>
+    <tbody>
     <tr class="gray-row row-2">
         <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
         <td></td>
@@ -115,6 +116,7 @@ render(){
         <td className='faild'>برگشت شده</td>
         <td><img src={Note} className="Note" alt="Note"/></td>
     </tr>
+    </tbody>
 </table>
     )
     }

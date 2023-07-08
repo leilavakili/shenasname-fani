@@ -8,6 +8,5 @@ footer{
     display: inline-block;
     font-size: 10px;
     cursor: pointer;
-    position: relative;
-    margin-top: auto;    
+    margin-top: auto;  
 }
