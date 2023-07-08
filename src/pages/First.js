@@ -9,7 +9,12 @@ class First extends Component{
 
 render(){
     return(
-        <><Navbar /><Navbar2 /><Table /><Footer /></>
+        <div>
+        <Navbar />
+        <Navbar2 />
+        <Table />
+        <Footer />
+        </div>
         )
     }
 }

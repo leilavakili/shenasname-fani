@@ -7,7 +7,7 @@ class Table extends Component{
 
 render(){
     return(
-        
+
 <table>
 
     <tr class="white-row row-1" id="head">
