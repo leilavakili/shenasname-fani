@@ -1,5 +1,4 @@
 footer{
-    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -10,7 +9,5 @@ footer{
     font-size: 10px;
     cursor: pointer;
     position: relative;
-}
-.footerright{
-    text-align: right;
+    margin-top: auto;    
 }

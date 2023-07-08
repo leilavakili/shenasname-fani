@@ -9,7 +9,7 @@ render(){
         <img src={Certificate} className="Certificate" alt="Certificate"/>
         <a className='project'>پروژه ها</a>
         <a className='project2'>پروژه ها</a>    
-        <a className='report'>گزارش پروژه ها</a>    
+        <a className='report'>پروژه های واگذار شده</a>    
         </nav>
     )
 }
