@@ -7,6 +7,7 @@ class Table extends Component{
 
 render(){
     return(
+        <div><h4>گزارش پروژه ها</h4>
 <table>
 
     <tr class="white-row row-1" id="head">
@@ -117,6 +118,7 @@ render(){
     </tr>
     </tbody>
 </table>
+</div>
     )
     }
 }
