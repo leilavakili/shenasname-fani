@@ -14,15 +14,16 @@
     align-items: center;
     width: 27px;
     height: auto;
-    margin-top: 11px;
+    margin-top: 5px;
     margin-right: 20px;
     cursor: pointer;
     display: inline-block;
 }
 .nav2 a{
-    margin-top: 14px;
+    margin-top: 10px;
     position: relative;
     direction: rtl;
+    font-size: 13px;
 }
 a .project{
     margin-right: 50px;

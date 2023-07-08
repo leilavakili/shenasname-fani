@@ -41,7 +41,7 @@ tbody :hover{
 .Note{
     height: 10px;
     width: 10px;
-    cursor: pointer;
+    cursor: pointer ;
 }
 
 td:hover{
