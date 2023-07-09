@@ -4,7 +4,7 @@ h4{
     margin-right: 30px;
     margin-top: 50px;
 }
-table {
+.table1 {
     border-collapse: collapse;
     direction: rtl;
     margin-top: 70px;
@@ -59,7 +59,7 @@ td:hover{
 tr{
     position: relative;
 }
-table td:after{
+.table1 td:after{
     content: "";
     position: absolute;
     width: 100%;
