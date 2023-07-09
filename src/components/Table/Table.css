@@ -45,7 +45,7 @@ tbody :hover{
 .Note{
     height: 10px;
     width: 10px;
-    cursor: pointer ;
+    cursor: pointer !important;
 }
 td:hover{
     background-color: rgba(0, 0, 0, 0) !important;
@@ -70,4 +70,7 @@ tr{
 }
 td{
     position: relative;
+}
+.note{
+    cursor: pointer;
 }

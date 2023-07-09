@@ -39,7 +39,7 @@ render(){
         <td>1401/08/22</td>
         <td>اجراء مجری</td>
         <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
     </tr>
     <tr class="white-row row-3">
         <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
@@ -54,7 +54,7 @@ render(){
         <td>1401/05/08</td>
         <td>اجراء مجری</td>
         <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
     </tr>
     <tr class="gray-row row-4">
         <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
@@ -69,7 +69,7 @@ render(){
         <td>1401/05/08</td>
         <td>اجراء مجری</td>        
         <td className='waiting'>منتظر تکمیل شما</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
     </tr>
     <tr class="white-row row-5">
         <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
@@ -84,7 +84,7 @@ render(){
         <td>1399/09/20</td>
         <td>طراحی عمران</td>
         <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
     </tr>
     <tr class="gray-row row-6">
         <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
@@ -99,7 +99,7 @@ render(){
         <td>1399/04/39</td>
         <td>طراحی عمران</td>
         <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note" /></a></td>
     </tr>
     <tr class="white-row row-7">
         <td><img src={Red} className="Red" alt="Red"/></td>
@@ -114,7 +114,7 @@ render(){
         <td>1397/03/08</td>
         <td>طراحی عمران</td>
         <td className='faild'>برگشت شده</td>
-        <td><img src={Note} className="Note" alt="Note"/></td>
+        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
     </tr>
     </tbody>
 </table>
