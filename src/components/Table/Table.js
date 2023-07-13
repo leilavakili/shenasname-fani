@@ -7,119 +7,155 @@ class Table extends Component{
 
 render(){
     return(
-        <div><h4>گزارش پروژه ها</h4>
-<table className='table1'>
-
-    <tr class="white-row row-1" id="head">
-        <th></th>
-        <th className='KN'>کد نوسازی</th>
-        <th className='KSS'>کد ثبتی سازمان</th>
-        <th className='PS'>پلاک ثبتی</th>
-        <th className='Block'>بلوک</th>
-        <th className='Adress'>آدرس</th>
-        <th className='Owner'>مالک</th>
-        <th className='NIO'>کد ملی مالک</th>
-        <th className='OT'>تلفن مالک</th>
-        <th className='Date'>تاریخ ایجاد</th>
-        <th className='Rol'>نقش شما</th>
-        <th className='Status'>وضعیت</th>
-        <th className='Opreation'>عملیات</th>
-    </tr>
-    <tbody>
-    <tr class="gray-row row-2">
-        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
-        <td></td>
-        <td>97589</td>
-        <td>2207/20.21</td>
-        <td></td>
-        <td></td>
-        <td>مجید حمیدی</td>
-        <td></td>
-        <td></td>
-        <td>1401/08/22</td>
-        <td>اجراء مجری</td>
-        <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
-    </tr>
-    <tr class="white-row row-3">
-        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
-        <td></td>
-        <td>222391</td>
-        <td>232231124422</td>
-        <td></td>
-        <td></td>
-        <td>تست تستی</td>
-        <td></td>
-        <td></td>
-        <td>1401/05/08</td>
-        <td>اجراء مجری</td>
-        <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
-    </tr>
-    <tr class="gray-row row-4">
-        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
-        <td></td>
-        <td>137835 </td>
-        <td>10613/318</td>
-        <td></td>
-        <td></td>
-        <td>محمدرضا سرخوش</td>
-        <td></td>
-        <td></td>
-        <td>1401/05/08</td>
-        <td>اجراء مجری</td>        
-        <td className='waiting'>منتظر تکمیل شما</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
-    </tr>
-    <tr class="white-row row-5">
-        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
-        <td></td>
-        <td>202181</td>
-        <td>124564189</td>
-        <td></td>
-        <td>قم-بلوارامین</td>
-        <td>محمد محمدی</td>
-        <td></td>
-        <td>09121234567</td>
-        <td>1399/09/20</td>
-        <td>طراحی عمران</td>
-        <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
-    </tr>
-    <tr class="gray-row row-6">
-        <td><img src={Yellow} className="Yellow" alt="Yellow"/></td>
-        <td></td>
-        <td>202181</td>
-        <td>124564189</td>
-        <td></td>
-        <td></td>
-        <td>محمد محمدی</td>
-        <td></td>
-        <td></td>
-        <td>1399/04/39</td>
-        <td>طراحی عمران</td>
-        <td className='waiting'>منتظر تکمیل سایرین</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note" /></a></td>
-    </tr>
-    <tr class="white-row row-7">
-        <td><img src={Red} className="Red" alt="Red"/></td>
-        <td>2-5-6-3-1</td>
-        <td>47585</td>
-        <td>1864</td>
-        <td>ساختمان</td>
-        <td></td>
-        <td>احمد و رعنا نوروزی و آقا پور</td>
-        <td></td>
-        <td></td>
-        <td>1397/03/08</td>
-        <td>طراحی عمران</td>
-        <td className='faild'>برگشت شده</td>
-        <td className='note'><a href='http://localhost:3000/Second'><img src={Note} className="Note" alt="Note"/></a></td>
-    </tr>
-    </tbody>
-</table>
-</div>
-    )
-    }
+        <div className='Tablediv'>
+        <h4>گزارش پروژه ها</h4>
+        <div className="table1">
+          <div className="row-1" id="head">
+            <div></div>
+            <div className="KN">کد نوسازی</div>
+            <div className="KSS">کد ثبتی سازمان</div>
+            <div className="PS">پلاک ثبتی</div>
+            <div className="Block">بلوک</div>
+            <div className="Adress">آدرس</div>
+            <div className="Owner">مالک</div>
+            <div className="NIO">کد ملی مالک</div>
+            <div className="OT">تلفن مالک</div>
+            <div className="Date">تاریخ ایجاد</div>
+            <div className="Rol">نقش شما</div>
+            <div className="Status">وضعیت</div>
+            <div className="Opreation">عملیات</div>
+          </div>
+          <div className="row-2">
+            <div>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </div>
+            <div></div>
+            <div>97589</div>
+            <div>2207/20.21</div>
+            <div></div>
+            <div></div>
+            <div>مجید حمیدی</div>
+            <div></div>
+            <div></div>
+            <div>1401/08/22</div>
+            <div>اجراء مجری</div>
+            <div className="waiting">منتظر تکمیل سایرین</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+          <div className="row-3">
+            <div>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </div>
+            <div></div>
+            <div>222391</div>
+            <div>232231124422</div>
+            <div></div>
+            <div></div>
+            <div>تست تستی</div>
+            <div></div>
+            <div></div>
+            <div>1401/05/08</div>
+            <div>اجراء مجری</div>
+            <div className="waiting">منتظر تکمیل سایرین</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+          <div className="row-4">
+            <div>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </div>
+            <div></div>
+            <div>137835</div>
+            <div>10613/318</div>
+            <div></div>
+            <div></div>
+            <div>محمدرضا سرخوش</div>
+            <div></div>
+            <div></div>
+            <div>1401/05/08</div>
+            <div>اجراء مجری</div>
+            <div className="waiting">منتظر تکمیل شما</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+          <div className="row-5">
+            <div>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </div>
+            <div></div>
+            <div>202181</div>
+            <div>124564189</div>
+            <div></div>
+            <div>قم-بلوارامین</div>
+            <div>محمد محمدی</div>
+            <div></div>
+            <div>09121234567</div>
+            <div>1399/09/20</div>
+            <div>طراحی عمران</div>
+            <div className="waiting">منتظر تکمیل سایرین</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+          <div className="row-6">
+            <div>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </div>
+            <div></div>
+            <div>202181</div>
+            <div>124564189</div>
+            <div></div>
+            <div></div>
+            <div>محمد محمدی</div>
+            <div></div>
+            <div></div>
+            <div>1399/04/39</div>
+            <div>طراحی عمران</div>
+            <div className="waiting">منتظر تکمیل سایرین</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+          <div className="row-7">
+            <div>
+              <img src={Red} className="Red" alt="Red" />
+            </div>
+            <div>2-5-6-3-1</div>
+            <div>47585</div>
+            <div>1864</div>
+            <div>ساختمان</div>
+            <div></div>
+            <div>احمد و رعنا نوروزی و آقا پور</div>
+            <div></div>
+            <div></div>
+            <div>1397/03/08</div>
+            <div>طراحی عمران</div>
+            <div className="faild">برگشت شده</div>
+            <div className="note">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-    export default Table;
+
+export default Table;
+
