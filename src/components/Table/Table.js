@@ -10,19 +10,19 @@ render(){
       <div className='Tablediv'>
       <h4>گزارش پروژه ها</h4>
       <div className="table1">
-            <span></span>
-            <span className="KN">کد نوسازی</span>
-            <span className="KSS">کد ثبتی سازمان</span>
-            <span className="PS">پلاک ثبتی</span>
-            <span className="Block">بلوک</span>
-            <span className="Adress">آدرس</span>
-            <span className="Owner">مالک</span>
-            <span className="NIO">کد ملی مالک</span>
-            <span className="OT">تلفن مالک</span>
-            <span className="Date">تاریخ ایجاد</span>
-            <span className="Rol">نقش شما</span>
-            <span className="Status">وضعیت</span>
-            <span className="Opreation">عملیات</span>
+            <span className='head'></span>
+            <span className="head">کد نوسازی</span>
+            <span className="head">کد ثبتی سازمان</span>
+            <span className="head">پلاک ثبتی</span>
+            <span className="head">بلوک</span>
+            <span className="head">آدرس</span>
+            <span className="head">مالک</span>
+            <span className="head">کد ملی مالک</span>
+            <span className="head">تلفن مالک</span>
+            <span className="head">تاریخ ایجاد</span>
+            <span className="head">نقش شما</span>
+            <span className="head">وضعیت</span>
+            <span className="head">عملیات</span>
             <span>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
