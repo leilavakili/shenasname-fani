@@ -55,9 +55,19 @@
     width: 25px;
     height: 25px;
     margin-left: 10px;
+    position: relative;
 
 }
 .menu{
     width: 35px;
     height: 30px; 
 } 
+.notification .badge {
+    font-size: 10px;
+    position: absolute;
+    left: 23px;
+    padding: 1px 2px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
