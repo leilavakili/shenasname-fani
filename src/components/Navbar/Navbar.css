@@ -33,7 +33,7 @@
    display: inline-block;
 }
 .nav span{
-    margin-top: 10px;
+    margin-top: 0px;
     position: relative;
     font-size: 13px;
     color: #ffff;
@@ -41,6 +41,9 @@
 }
 .nezam{
     margin-right: 50px;
+}
+.sakhteman{
+    margin-right: -10px;
 }
 .left{
     margin-right: auto;

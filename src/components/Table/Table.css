@@ -4,28 +4,26 @@
     display: inline-block;
     margin-left: 30px;
 }
-h4{
+h5{
     text-align: right;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .table1 {
-    margin-top: 70px;
+    margin-top: 20px;
     margin-right: 20px;
     border-bottom: 1px solid rgb(175, 175, 175);
     width: 100%;
-    height: 500px;
     font-size: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 5fr 2fr 2fr 2fr 2fr 2fr 4fr 3fr ;
-    grid-template-rows: 50px;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 5fr 2fr 2fr 2fr 2fr 2fr 4fr 2fr ;
+    grid-template-rows: repeat(7, 1fr);
     grid-column: 12;
     grid-row: 7;
-    height: 300px;
-}
-span{
-    margin-top: 6px;
-    padding-bottom: -100px;
+    height: 10%;
+    column-gap: 0;
+    row-gap: 0;
+    cursor: text;
 }
 span:nth-child(14),
 span:nth-child(15),
@@ -67,7 +65,7 @@ span:nth-child(76),
 span:nth-child(77),
 span:nth-child(78)
 {
-  background: #dddddd78;
+  background: #e0e0e02e;
 }
 .Red{
     width: 13px ;
@@ -78,11 +76,20 @@ span:nth-child(78)
     height: 13px;
 }
 .Note{
-    height: 10px;
+    height: 13px;
     width: 10px;
-    cursor: pointer !important;
 }
-.table1 span:after{
+
+.head{
+    color: rgb(133, 132, 132);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+span{
+    padding-top: 10px;
+    padding-right: 13px;
+    position: relative;
+}
+.table1 span::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -91,6 +98,46 @@ span:nth-child(78)
     left: 0;
     border-right: 1px solid rgba(44,44,44,0.1);
 }
-.head{
-    border-bottom: 1px solid rgb(175, 175, 175);
+.table1 .head::after{
+    border-right:0;
+}
+.table1 .right::after{
+    border-right:0;
+}
+
+.arrow{
+    height: 13px;
+    margin-right: 25px;
+    padding: 3px;
+    background-color: rgba(0, 143, 95, 0.164);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.magnifier{
+    height: 11px;
+    margin-right: 5px;
+    padding: 4px;
+    background-color: rgba(101, 101, 101, 0.164);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.note{
+    cursor: pointer;
+}
+.waiting{
+    text-shadow: 3px 3px 10px rgba(255, 221, 0, 0.299),
+                -3px -3px 10px rgb(255, 221, 0, 0.299),
+                 3px 3px 10px rgb(255, 221, 0, 0.299),
+                -3px -3px 10px rgb(255, 221, 0, 0.299);
+    color: orange;            
+}
+.faild{ 
+    text-shadow: 3px 3px 10px rgb(255, 0, 0, 0.299),
+                -3px -3px 10px rgb(255, 0, 0, 0.299),
+                 3px 3px 10px rgb(255, 0, 0, 0.299),
+                -3px -3px 10px rgb(255, 0, 0, 0.299);
+    color: rgb(255, 0, 0); 
+    
 }

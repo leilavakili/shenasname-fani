@@ -3,12 +3,16 @@ import "./Table.css";
 import Red from './R.png';
 import Yellow from './yellow-circle.png';
 import Note from './notepad.jpeg';
+import arrow from './arrow-transformed.png';
+import magnifier from './magnifier.png';
 class Table extends Component{
 
 render(){
     return(
       <div className='Tablediv'>
-      <h4>گزارش پروژه ها</h4>
+      <h5>گزارش پروژه ها</h5>
+      <img src={arrow} className="arrow" alt="arrow" />
+      <img src={magnifier} className="magnifier" alt="magnifier" />
       <div className="table1">
             <span className='head'></span>
             <span className="head">کد نوسازی</span>
@@ -23,7 +27,7 @@ render(){
             <span className="head">نقش شما</span>
             <span className="head">وضعیت</span>
             <span className="head">عملیات</span>
-            <span>
+            <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
             <span></span>
@@ -42,7 +46,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
-            <span>
+            <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
             <span></span>
@@ -61,7 +65,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
-            <span>
+            <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
             <span></span>
@@ -80,7 +84,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
-            <span>
+            <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
             <span></span>
@@ -99,7 +103,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
-            <span>
+            <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
             <span></span>
@@ -118,7 +122,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
-            <span>
+            <span className='right'>
               <img src={Red} className="Red" alt="Red" />
             </span>
             <span>2-5-6-3-1</span>
