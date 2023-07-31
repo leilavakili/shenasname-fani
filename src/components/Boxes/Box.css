@@ -1,3 +1,6 @@
+.body{
+    background-color: rgb(227, 227, 227);
+}
 section{
     box-sizing: border-box;
     border: 1px solid rgb(209, 209, 209);
@@ -41,3 +44,57 @@ td{
     padding-top: 20px;
     padding-right: 15px;
 }
+.grid-item1{
+    background-color: white;
+    box-shadow:-9px 1px 2px 0p rgba(0, 0, 0, 0.73);
+    display: grid;
+    height: 700px;
+    width: 250px;
+}
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+.pie {
+    display: inline-block;
+    --w:150px;
+    --p:100;--b:10px;--c: #2196F3;
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    place-content: center;
+    margin: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+.percent{
+    font-size: 18px;
+    color: white;
+}
+  .pie:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+.item1 { grid-area: sidebar; }
+.item2 { grid-area: main1; }
+.item3 { grid-area: main2; }
+.grid-container n{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }

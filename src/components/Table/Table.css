@@ -126,18 +126,16 @@ span{
 .note{
     cursor: pointer;
 }
-.waiting{
-    text-shadow: 3px 3px 10px rgba(255, 221, 0, 0.299),
-                -3px -3px 10px rgb(255, 221, 0, 0.299),
-                 3px 3px 10px rgb(255, 221, 0, 0.299),
-                -3px -3px 10px rgb(255, 221, 0, 0.299);
-    color: orange;            
+.waiting a{
+    background-color: rgba(255, 219, 151, 0.232);
+    border-radius: 10px;
+    padding: 2px;
+    color: rgb(255, 166, 0);            
 }
-.faild{ 
-    text-shadow: 3px 3px 10px rgb(255, 0, 0, 0.299),
-                -3px -3px 10px rgb(255, 0, 0, 0.299),
-                 3px 3px 10px rgb(255, 0, 0, 0.299),
-                -3px -3px 10px rgb(255, 0, 0, 0.299);
+.faild a{ 
+    background-color: rgba(255, 151, 151, 0.232);
+    border-radius: 10px;
+    padding: 2px;
     color: rgb(255, 0, 0); 
     
 }

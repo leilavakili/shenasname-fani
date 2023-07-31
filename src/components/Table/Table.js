@@ -5,6 +5,7 @@ import Yellow from './yellow-circle.png';
 import Note from './notepad.jpeg';
 import arrow from './arrow-transformed.png';
 import magnifier from './magnifier.png';
+import {BrowserRouter , Link, Navigate} from "react-router-dom"
 class Table extends Component{
 
 render(){
@@ -40,11 +41,9 @@ render(){
             <span></span>
             <span>1401/08/22</span>
             <span>اجراء مجری</span>
-            <span className="waiting">منتظر تکمیل سایرین</span>
+            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
             <span className="note">
-              <a href="http://localhost:3000/Second">
-                <img src={Note} className="Note" alt="Note" />
-              </a>
+              <img src={Note} className="Note" alt="Note" onClick={"/Second"} />
             </span>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
@@ -59,7 +58,7 @@ render(){
             <span></span>
             <span>1401/05/08</span>
             <span>اجراء مجری</span>
-            <span className="waiting">منتظر تکمیل سایرین</span>
+            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
             <span className="note">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
@@ -78,7 +77,7 @@ render(){
             <span></span>
             <span>1401/05/08</span>
             <span>اجراء مجری</span>
-            <span className="waiting">منتظر تکمیل شما</span>
+            <span className="waiting"><a>منتظر تکمیل شما</a></span>
             <span className="note">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
@@ -97,7 +96,7 @@ render(){
             <span>09121234567</span>
             <span>1399/09/20</span>
             <span>طراحی عمران</span>
-            <span className="waiting">منتظر تکمیل سایرین</span>
+            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
             <span className="note">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
@@ -116,7 +115,7 @@ render(){
             <span></span>
             <span>1399/04/39</span>
             <span>طراحی عمران</span>
-            <span className="waiting">منتظر تکمیل سایرین</span>
+            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
             <span className="note">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
@@ -135,7 +134,7 @@ render(){
             <span></span>
             <span>1397/03/08</span>
             <span>طراحی عمران</span>
-            <span className="faild">برگشت شده</span>
+            <span className="faild"><a>برگشت شده</a></span>
             <span className="note">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
