@@ -4,7 +4,6 @@ import Navbar2 from '../components/Navbar2/Navbar2';
 import Table from '../components/Table/Table';
 import Footer from '../components/Footer/Footer';
 
-
 class First extends Component{
 
 render(){

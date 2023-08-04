@@ -6,7 +6,6 @@ import TI from './TI.jpeg';
 import status from './status.jpeg';
 import './Box.css';
 class Box extends Component{
-
 render(){
     return(
         <div className='body'>
@@ -45,7 +44,9 @@ render(){
          </div>
          <div className='grid-item2'>
             <section className='section1'>
+             <img src={Check} className="Check" alt="Check" />
              <a className='topic'>مشخصات کلی</a>
+             <div className='border'>
              <table className='table2'>
              <tr>
              <th>کد نوسازی</th>
@@ -58,6 +59,8 @@ render(){
              <td>10613/318</td>
              </tr>
              </table>
+             </div>
+             <div className='border'>
              <table className='table3'>
              <tr>
              <th>نام مالک</th>
@@ -66,31 +69,51 @@ render(){
              <td>محمدرضا سرخوش</td>
              <td></td>
              </table>
-             <th>بلوک</th>
+             </div>
+             <div className='border'>
+             <th className='block'>بلوک</th>
+             </div>
              </section>
             </div>
             <div class="grid-item3">
             <section className='section2'>
+            <img src={Check} className="Check" alt="Check" />
             <a className='topic'>وضعیت تکمیل دفترچه</a>
-            <table className='table3'>
+            <div className='border'>
+            <table className='table4'>
             <tr>
              <th>تعداد کل جداول</th>
              </tr>
-             </table>
-             <table className='table3'>
+            </table>
+            </div>
+            <div className='border'>
+             <table className='table5'>
              <tr>
              <th>جداول مربوط به شما</th>
-             <th>جدول تکمیل شده توسط شما</th>
+             <th className='jt'>جدول تکمیل شده توسط شما</th>
              <th>جدول در انتظار تکمیل شما</th>
              </tr>
-             </table>
-             <table className='table3'>
              <tr>
-             <th>تعداد بخش های مربوط به شما</th>
-             <th>بخش های ارسال شده</th>
-             <th>بخش های ارسال نشده</th>
+             <td></td>
+             <td></td>
+             <td><span className='red'></span></td>
              </tr>
              </table>
+             </div>
+             <div className='border'>
+             <table className='table6'>
+             <tr>
+             <th>تعداد بخش های مربوط به شما</th>
+             <th className='be'>بخش های ارسال شده</th>
+             <th>بخش های ارسال نشده</th>
+             </tr>
+             <tr>
+             <td></td>
+             <td></td>
+             <td><span className='red'></span></td>
+             </tr>
+             </table>
+             </div>
             </section>
             </div>
          </div>
