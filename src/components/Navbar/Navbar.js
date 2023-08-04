@@ -13,7 +13,7 @@ render(){
         <span className='sakhteman'>ساختمان استان قم</span>
     <div className='left'>
         <img src={menu} className="menu" alt="menu"/>
-        <a href="#" class="notification">
+        <a href="#" className="notification">
          <img src={bell} className="bell" alt="bell"/>
          <span class="badge">19</span>
         </a>
