@@ -15,6 +15,7 @@ render(){
       <img src={arrow} className="arrow" alt="arrow" />
       <img src={magnifier} className="magnifier" alt="magnifier" />
       <div className="table1">
+          <div className='firstrow'>
             <span className='head'></span>
             <span className="head">کد نوسازی</span>
             <span className="head">کد ثبتی سازمان</span>
@@ -28,6 +29,8 @@ render(){
             <span className="head">نقش شما</span>
             <span className="head">وضعیت</span>
             <span className="head">عملیات</span>
+          </div>
+          <div className='row' id='back'>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
@@ -45,6 +48,8 @@ render(){
             <span className="note">
               <img src={Note} className="Note" alt="Note" onClick={"/Second"} />
             </span>
+          </div>
+          <div className='row'>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
@@ -64,6 +69,8 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
+          </div>
+          <div className='row' id='back'>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
@@ -83,6 +90,8 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
+          </div>          
+          <div className='row'>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
@@ -102,6 +111,8 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
+          </div>
+          <div className='row' id='back'>
             <span className='right'>
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span>
@@ -121,6 +132,8 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
+          </div>
+          <div className='row'>
             <span className='right'>
               <img src={Red} className="Red" alt="Red" />
             </span>
@@ -140,6 +153,7 @@ render(){
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
+          </div>
           </div>
       </div>
 

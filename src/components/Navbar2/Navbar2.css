@@ -31,14 +31,29 @@ a .project{
     direction: rtl;
     
 }
+.link{
+    font-size: 13px;
+    font-family: Vazir;
+    text-decoration: none;
+    color: rgba(105, 105, 105, 0.603);
+}
 .project2{
     margin-right: auto;
-
     position: relative;
     direction: ltr;
 }
 .report{
     margin-right: 10px;
     margin-left: 20px;
-    color: rgba(105, 105, 105, 0.603);
 }
+button{
+    border: none;
+    background-color: white;
+    font-family: Vazir;
+}
+.link:active{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #4285f4;
+    color: #4285f4 !important;
+}
+

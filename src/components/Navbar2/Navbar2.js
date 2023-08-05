@@ -8,8 +8,8 @@ render(){
         <nav className='nav2'>
         <img src={Certificate} className="Certificate" alt="Certificate"/>
         <a className='project'>پروژه ها</a>
-        <a className='project2'>پروژه ها</a>    
-        <a className='report'>پروژه های واگذار شده</a>    
+        <button className='project2'><a className='link' href='http://localhost:3000/First'>پروژه ها</a></button>    
+        <button className='report'><a className='link' href='http://localhost:3000'>پروژه های واگذار شده</a></button>    
         </nav>
     )
 }

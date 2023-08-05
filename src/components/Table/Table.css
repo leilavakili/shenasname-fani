@@ -25,47 +25,8 @@ h5{
     row-gap: 0;
     cursor: text;
 }
-span:nth-child(14),
-span:nth-child(15),
-span:nth-child(16),
-span:nth-child(17),
-span:nth-child(18),
-span:nth-child(19),
-span:nth-child(20),
-span:nth-child(21),
-span:nth-child(22),
-span:nth-child(23),
-span:nth-child(24),
-span:nth-child(25),
-span:nth-child(26),
-span:nth-child(40),
-span:nth-child(41),
-span:nth-child(42),
-span:nth-child(43),
-span:nth-child(44),
-span:nth-child(45),
-span:nth-child(46),
-span:nth-child(47),
-span:nth-child(48),
-span:nth-child(49),
-span:nth-child(50),
-span:nth-child(51),
-span:nth-child(52),
-span:nth-child(66),
-span:nth-child(67),
-span:nth-child(68),
-span:nth-child(69),
-span:nth-child(70),
-span:nth-child(71),
-span:nth-child(72),
-span:nth-child(73),
-span:nth-child(74),
-span:nth-child(75),
-span:nth-child(76),
-span:nth-child(77),
-span:nth-child(78)
-{
-  background: #e0e0e02e;
+#back ::after{
+    background-color: #e0e0e030;
 }
 .Red{
     width: 13px ;
@@ -104,7 +65,17 @@ span{
 .table1 .right::after{
     border-right:0;
 }
-
+.row {
+    display: contents;
+}
+.firstrow{
+    display: contents;
+}
+  
+.row:hover span {
+    background-color: #dbeaf486;
+    cursor: pointer;
+}
 .arrow{
     height: 13px;
     margin-right: 25px;
