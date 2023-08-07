@@ -6,8 +6,8 @@ import Second from './pages/Second';
 function App() {
   return (
    <Routes>
-    <Route path="/" element={<Empty />} />
-    <Route path="/First" element={<First />} />
+    <Route path="/" element={<First />} />
+    <Route path="/Empty" element={<Empty />} />
     <Route path="/Second" element={<Second />} />
    </Routes>
   );

@@ -5,15 +5,14 @@ import Yellow from './yellow-circle.png';
 import Note from './notepad.jpeg';
 import arrow from './arrow-transformed.png';
 import magnifier from './magnifier.png';
-import {BrowserRouter , Link, Navigate} from "react-router-dom"
 class Table extends Component{
 
 render(){
     return(
       <div className='Tablediv'>
       <h5>گزارش پروژه ها</h5>
-      <img src={arrow} className="arrow" alt="arrow" />
-      <img src={magnifier} className="magnifier" alt="magnifier" />
+      <a href='/Empty'><img src={arrow} className="arrow" alt="arrow" /></a>
+      <a href='/Empty'><img src={magnifier} className="magnifier" alt="magnifier" /></a>
       <div className="table1">
           <div className='firstrow'>
             <span className='head'></span>
@@ -149,7 +148,7 @@ render(){
             <span>طراحی عمران</span>
             <span className="faild"><a>برگشت شده</a></span>
             <span className="note">
-              <a href="http://localhost:3000/Second">
+              <a href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span>
