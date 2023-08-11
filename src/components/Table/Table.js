@@ -29,129 +29,129 @@ render(){
             <span className="head">وضعیت</span>
             <span className="head">عملیات</span>
           </div>
-          <div className='row' id='back'>
-            <span className='right'>
+          <div className='row'>
+            <div className='back'><span>
               <img src={Yellow} className="Yellow" alt="Yellow" />
-            </span>
-            <span></span>
-            <span>97589</span>
-            <span>2207/20.21</span>
-            <span></span>
-            <span></span>
-            <span>مجید حمیدی</span>
-            <span></span>
-            <span></span>
-            <span>1401/08/22</span>
-            <span>اجراء مجری</span>
-            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
-            <span className="note">
+            </span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>97589</span></div>
+            <div className='back'><span className='border'>2207/20.21</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>مجید حمیدی</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>1401/08/22</span></div>
+            <div className='back'><span className='border'>اجراء مجری</span></div>
+            <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
+            <div className='back'><span className="note border">
               <img src={Note} className="Note" alt="Note" onClick={"/Second"} />
-            </span>
+            </span></div>
           </div>
           <div className='row'>
-            <span className='right'>
+            <div><span>
               <img src={Yellow} className="Yellow" alt="Yellow" />
-            </span>
-            <span></span>
-            <span>222391</span>
-            <span>232231124422</span>
-            <span></span>
-            <span></span>
-            <span>تست تستی</span>
-            <span></span>
-            <span></span>
-            <span>1401/05/08</span>
-            <span>اجراء مجری</span>
-            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
-            <span className="note">
+            </span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>222391</span></div>
+            <div><span className='border'>232231124422</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>تست تستی</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>1401/05/08</span></div>
+            <div><span className='border'>اجراء مجری</span></div>
+            <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
+            <div><span className="note border">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
-            </span>
+            </span></div>
           </div>
-          <div className='row' id='back'>
-            <span className='right'>
+          <div className='row'>
+            <div className='back'><span>
               <img src={Yellow} className="Yellow" alt="Yellow" />
-            </span>
-            <span></span>
-            <span>137835</span>
-            <span>10613/318</span>
-            <span></span>
-            <span></span>
-            <span>محمدرضا سرخوش</span>
-            <span></span>
-            <span></span>
-            <span>1401/05/08</span>
-            <span>اجراء مجری</span>
-            <span className="waiting"><a>منتظر تکمیل شما</a></span>
-            <span className="note">
+            </span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>137835</span></div>
+            <div className='back'><span className='border'>10613/318</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>محمدرضا سرخوش</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>1401/05/08</span></div>
+            <div className='back'><span className='border'>اجراء مجری</span></div>
+            <div className='back'><span className="waiting border"><a>منتظر تکمیل شما</a></span></div>
+            <div className='back'><span className="note border">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
-            </span>
+            </span></div>
           </div>          
           <div className='row'>
-            <span className='right'>
+            <div><span>
               <img src={Yellow} className="Yellow" alt="Yellow" />
-            </span>
-            <span></span>
-            <span>202181</span>
-            <span>124564189</span>
-            <span></span>
-            <span>قم-بلوارامین</span>
-            <span>محمد محمدی</span>
-            <span></span>
-            <span>09121234567</span>
-            <span>1399/09/20</span>
-            <span>طراحی عمران</span>
-            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
-            <span className="note">
+            </span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>202181</span></div>
+            <div><span className='border'>124564189</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>قم-بلوارامین</span></div>
+            <div><span className='border'>محمد محمدی</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>09121234567</span></div>
+            <div><span className='border'>1399/09/20</span></div>
+            <div><span className='border'>طراحی عمران</span></div>
+            <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
+            <div><span className="note border">
               <a href="http://localhost:3000/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
-            </span>
-          </div>
-          <div className='row' id='back'>
-            <span className='right'>
-              <img src={Yellow} className="Yellow" alt="Yellow" />
-            </span>
-            <span></span>
-            <span>202181</span>
-            <span>124564189</span>
-            <span></span>
-            <span></span>
-            <span>محمد محمدی</span>
-            <span></span>
-            <span></span>
-            <span>1399/04/39</span>
-            <span>طراحی عمران</span>
-            <span className="waiting"><a>منتظر تکمیل سایرین</a></span>
-            <span className="note">
-              <a href="http://localhost:3000/Second">
-                <img src={Note} className="Note" alt="Note" />
-              </a>
-            </span>
+            </span></div>
           </div>
           <div className='row'>
-            <span className='right'>
+            <div className='back'><span>
+              <img src={Yellow} className="Yellow" alt="Yellow" />
+            </span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>202181</span></div>
+            <div className='back'><span className='border'>124564189</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>محمد محمدی</span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'></span></div>
+            <div className='back'><span className='border'>1399/04/39</span></div>
+            <div className='back'><span className='border'>طراحی عمران</span></div>
+            <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
+            <div className='back'><span className="note border">
+              <a href="http://localhost:3000/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
+            </span></div>
+          </div>
+          <div className='row'>
+            <div><span>
               <img src={Red} className="Red" alt="Red" />
-            </span>
-            <span>2-5-6-3-1</span>
-            <span>47585</span>
-            <span>1864</span>
-            <span>ساختمان</span>
-            <span></span>
-            <span>احمد و رعنا نوروزی و آقا پور</span>
-            <span></span>
-            <span></span>
-            <span>1397/03/08</span>
-            <span>طراحی عمران</span>
-            <span className="faild"><a>برگشت شده</a></span>
-            <span className="note">
+            </span></div>
+            <div><span className='border'>2-5-6-3-1</span></div>
+            <div><span className='border'>47585</span></div>
+            <div><span className='border'>1864</span></div>
+            <div><span className='border'>ساختمان</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>احمد و رعنا نوروزی و آقا پور</span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'></span></div>
+            <div><span className='border'>1397/03/08</span></div>
+            <div><span className='border'>طراحی عمران</span></div>
+            <div><span className="faild border"><a>برگشت شده</a></span></div>
+            <div><span className="note border">
               <a href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
-            </span>
+            </span></div>
           </div>
           </div>
       </div>

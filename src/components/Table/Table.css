@@ -14,30 +14,29 @@ h5{
     margin-right: 20px;
     border-bottom: 1px solid rgb(175, 175, 175);
     width: 100%;
+    height: 300px;
     font-size: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 5fr 2fr 2fr 2fr 2fr 2fr 4fr 2fr ;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 2fr 4fr 2fr 2fr 2fr 2fr 2fr 4fr 1fr ;
+    grid-template-rows: 30px;
     grid-column: 12;
     grid-row: 7;
-    height: 10%;
-    column-gap: 0;
-    row-gap: 0;
     cursor: text;
 }
 .Red{
     width: 13px ;
     height: 13px;
+    padding-left: 15px !important;
 }
 .Yellow{
     width: 13px;
     height: 13px;
+    padding-left: 15px !important;
 }
 .Note{
     height: 13px;
     width: 10px;
 }
-
 .head{
     font-weight: bold;
     padding-right: 10px;
@@ -46,32 +45,31 @@ h5{
     border-bottom: 1px solid rgb(175, 175, 175);
 }
 .row span{
-    padding-top: 10px;
-    padding-right: 10px;
+    top:30%;
+    padding-top: 5px;
+    padding-right:15px;
     position: relative;    
+}
+.border{
+    position: absolute;
     width: 100%;
     height: 60%;
-    top: 15%;
     left: 0;
+    border-bottom: none !important;
     border-right: 1px solid rgba(44,44,44,0.1);
 }
-
-.table1 .head::after{
-    border-right:0;
-}
-.table1 .right::after{
-    border-right:0;
-}
-.row {
+.row{
     display: contents;
 }
 .firstrow{
     display: contents;
 }
-  
-.row:hover span{
-    background-color: #dbeaf486;
-
+.row:hover{
+    background-color: #4286f433;
+    border-right: none;
+}
+.back{
+    background-color: rgba(201, 201, 201, 0.112);
 }
 .arrow{
     height: 13px;
@@ -95,9 +93,9 @@ h5{
     background-color: rgba(255, 219, 151, 0.232);
     border-radius: 10px;
     padding: 2px;
-    color: rgb(255, 166, 0);            
+    color: rgb(255, 166, 0);           
 }
-.faild a{ 
+.faild a{
     background-color: rgba(255, 151, 151, 0.232);
     border-radius: 10px;
     padding: 2px;

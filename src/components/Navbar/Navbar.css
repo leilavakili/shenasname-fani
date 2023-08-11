@@ -33,7 +33,7 @@
    display: inline-block;
 }
 .nav span{
-    margin-top: 0px;
+    margin-top: 8px;
     position: relative;
     font-size: 13px;
     color: #ffff;
@@ -43,7 +43,7 @@
     margin-right: 50px;
 }
 .sakhteman{
-    margin-right: -10px;
+    margin-right: 5px;
 }
 .left{
     margin-right: auto;
@@ -63,6 +63,7 @@
     height: 30px; 
 } 
 .notification .badge {
+
     font-size: 10px;
     position: absolute;
     left: 23px;

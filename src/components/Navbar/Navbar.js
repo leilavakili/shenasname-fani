@@ -12,10 +12,10 @@ render(){
         <span className='nezam'>سازمان نظام مهندسی</span>
         <span className='sakhteman'>ساختمان استان قم</span>
     <div className='left'>
-        <img src={menu} className="menu" alt="menu"/>
-        <a href="#" className="notification">
+        <a href='Empty'><img src={menu} className="menu" alt="menu"/></a>
+        <a href="/Empty" className="notification">
          <img src={bell} className="bell" alt="bell"/>
-         <span class="badge">19</span>
+         <a href="/Empty" class="badge">19</a>
         </a>
       
     </div>
