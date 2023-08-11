@@ -9,8 +9,30 @@ h5{
     margin-right: 30px;
     margin-top: 20px;
 }
+.page{
+    margin-right: 87%;
+    font-size:12px;
+    opacity: 40%;
+    margin-left: 5px;
+}
+.N{
+    margin-right: 10px;
+    width: 15px;
+    height: 18px;
+    opacity: 40%;
+    border: 1px solid gray;
+    border-radius:5px;
+    margin-left:10px;
+} 
+.P{
+    width: 15px;
+    height: 18px;
+    opacity: 40%;
+    border: 1px solid gray;
+    border-radius:5px;
+} 
 .table1 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
     border-bottom: 1px solid rgb(175, 175, 175);
     width: 100%;
@@ -61,12 +83,18 @@ h5{
 .row{
     display: contents;
 }
+.row::after{
+    content: text;
+    display: inline-block;
+}
+.row:hover::after{
+    background-color: #4286f433;
+}
 .firstrow{
     display: contents;
 }
-.row:hover{
+.hover:hover{
     background-color: #4286f433;
-    border-right: none;
 }
 .back{
     background-color: rgba(201, 201, 201, 0.112);

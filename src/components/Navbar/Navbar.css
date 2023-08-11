@@ -21,7 +21,6 @@
     text-decoration: none;
     font-weight: 4oo;
 }
-
 .Logo{
    align-items: center;
    width: 1.4em;
@@ -56,14 +55,13 @@
     height: 25px;
     margin-left: 10px;
     position: relative;
-
 }
 .menu{
     width: 35px;
     height: 30px; 
 } 
 .notification .badge {
-
+    text-decoration:none;
     font-size: 10px;
     position: absolute;
     left: 23px;

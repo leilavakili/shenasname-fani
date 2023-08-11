@@ -135,8 +135,7 @@
     background-color: #2195f313;
     border-radius: 5px;
     cursor: pointer;
-}
-
+} 
 .section1{
     background-color: white;
     box-sizing: border-box;
@@ -157,14 +156,14 @@
     height: 215px;
     font-size: 13px;
 }
-.table2 {
+.table2{
     direction: rtl;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 10px;
     width: 550px;
-    margin-right: 15px;
+    margin-right: 275px;
 }
 .border{
     border-bottom: 1px solid rgb(227, 227, 227);
@@ -172,9 +171,9 @@
 .table3 {
     direction: rtl;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 10px;
-    margin-right: 15px;
+    margin-right: 275px;
     font-size: 10px;
     width: 300px;
 }
@@ -192,6 +191,7 @@
     margin-top: 10px;
 }
 th{
+    margin-top:100px;
     width: 60px;
     font-size: 10px;
     color: rgb(163, 163, 163);
@@ -210,7 +210,7 @@ td{
     direction: rtl;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-right: 15px;
+    margin-right: 275px;
     font-size: 10px;
     width: 300px;
 }
@@ -266,8 +266,8 @@ td{
     padding: 0 18;
     background-color: white;
     position: relative;
+    display:none;
     overflow: hidden;
-    display: none;
     transition: 0.5s;
     overflow-y: auto;
 }
