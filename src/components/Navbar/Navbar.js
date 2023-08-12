@@ -3,6 +3,9 @@ import "./Navbar.css";
 import Logo from './Logo.png';
 import bell from './bell.png';
 import menu from './menu.png';
+const formatFarsiNumber = (number) => {
+    return new Intl.NumberFormat('fa-IR').format(number);
+};
 class Navbar extends Component{
 
 render(){
@@ -15,7 +18,7 @@ render(){
         <a href='Empty'><img src={menu} className="menu" alt="menu"/></a>
         <a href="/Empty" className="notification">
          <img src={bell} className="bell" alt="bell"/>
-         <a href="/Empty" class="badge">19</a>
+         <a href="/Empty" class="badge">{formatFarsiNumber(19)}</a>
         </a>
       
     </div>

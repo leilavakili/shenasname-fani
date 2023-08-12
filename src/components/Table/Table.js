@@ -21,11 +21,11 @@ class Table extends Component{
 
 render(){
     return(
-      <div className='Tablediv'>
+<div className='Tablediv'>
       <h5>گزارش پروژه ها</h5>
       <a href='/Empty'><img src={arrow} className="arrow" alt="arrow" /></a>
       <a href='/Empty'><img src={magnifier} className="magnifier" alt="magnifier" /></a>
-      <span className='page'>از1تا6 از6</span>
+      <span className='page'>از{formatFarsiNumber(1)}تا{formatFarsiNumber(6)} از{formatFarsiNumber(6)}</span>
       <a><img src={P} className="P" alt="P"/></a>
       <a><img src={N} className="N" alt="N"/></a>
       <div className="table1">
@@ -49,14 +49,14 @@ render(){
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(97589)}</span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(2207/20.21)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(975)}{formatFarsiNumber(89)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(220)}{formatFarsiNumber(7/20.21)}</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'>مجید حمیدی</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>{formatFarsiDate('8/12/2023')}</span></div>
+            <div className='back'><span className='border'>{formatFarsiDate('11/13/2022')}</span></div>
             <div className='back'><span className='border'>اجراء مجری</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div className='back'><span className="note border">
@@ -68,14 +68,14 @@ render(){
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span></div>
             <div><span className='border'></span></div>
-            <div><span className='border'>{formatFarsiNumber(222391)}</span></div>
-            <div><span className='border'>{formatFarsiNumber(232231124422)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(222)}{formatFarsiNumber(391)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(232)}{formatFarsiNumber(231)}{formatFarsiNumber(124)}{formatFarsiNumber(422)}</span></div>
             <div><span className='border'></span></div>
             <div><span className='border'></span></div>
             <div><span className='border'>تست تستی</span></div>
             <div><span className='border'></span></div>
             <div><span className='border'></span></div>
-            <div><span className='border'>1401/05/08</span></div>
+            <div><span className='border'>{formatFarsiDate('7-30-2022')}</span></div>
             <div><span className='border'>اجراء مجری</span></div>
             <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div><span className="note border">
@@ -89,14 +89,14 @@ render(){
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(137835)}</span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(10613/318)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(137)}{formatFarsiNumber(835)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(106)}{formatFarsiNumber(13/318)}</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'>محمدرضا سرخوش</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>1401/05/08</span></div>
+            <div className='back'><span className='border'>{formatFarsiDate('7-30-2022')}</span></div>
             <div className='back'><span className='border'>اجراء مجری</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل شما</a></span></div>
             <div className='back'><span className="note border">
@@ -110,14 +110,14 @@ render(){
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span></div>
             <div><span className='border'></span></div>
-            <div><span className='border'>{formatFarsiNumber(202181)}</span></div>
-            <div><span className='border'>{formatFarsiNumber(124564189)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(202)}{formatFarsiNumber(181)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(124)}{formatFarsiNumber(564)}{formatFarsiNumber(189)}</span></div>
             <div><span className='border'></span></div>
             <div><span className='border'>قم-بلوارامین</span></div>
             <div><span className='border'>محمد محمدی</span></div>
             <div><span className='border'></span></div>
-            <div><span className='border'>{formatFarsiNumber('09121234567')}</span></div>
-            <div><span className='border'>1399/09/20</span></div>
+            <div><span className='border'>{formatFarsiNumber(0)}{formatFarsiNumber(91)}{formatFarsiNumber(212)}{formatFarsiNumber(345)}{formatFarsiNumber(67)}</span></div>
+            <div><span className='border'>{formatFarsiDate('9/20/2020')}</span></div>
             <div><span className='border'>طراحی عمران</span></div>
             <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div><span className="note border">
@@ -131,14 +131,14 @@ render(){
               <img src={Yellow} className="Yellow" alt="Yellow" />
             </span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(202181)}</span></div>
-            <div className='back'><span className='border'>{formatFarsiNumber(124564189)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(202)}{formatFarsiNumber(181)}</span></div>
+            <div className='back'><span className='border'>{formatFarsiNumber(124)}{formatFarsiNumber(564)}{formatFarsiNumber(189)}</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'>محمد محمدی</span></div>
             <div className='back'><span className='border'></span></div>
             <div className='back'><span className='border'></span></div>
-            <div className='back'><span className='border'>1399/04/39</span></div>
+            <div className='back'><span className='border'>{formatFarsiDate('7-19-2020')}</span></div>
             <div className='back'><span className='border'>طراحی عمران</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div className='back'><span className="note border">
@@ -151,15 +151,15 @@ render(){
             <div><span>
               <img src={Red} className="Red" alt="Red" />
             </span></div>
-            <div><span className='border'>{formatFarsiNumber(2-5-6-3-1)}</span></div>
-            <div><span className='border'>{formatFarsiNumber(47585)}</span></div>
-            <div><span className='border'>{formatFarsiNumber(1864)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(2)}-{formatFarsiNumber(5)}-{formatFarsiNumber(6)}-{formatFarsiNumber(3)}-{formatFarsiNumber(1)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(475)}{formatFarsiNumber(85)}</span></div>
+            <div><span className='border'>{formatFarsiNumber(186)}{formatFarsiNumber(4)}</span></div>
             <div><span className='border'>ساختمان</span></div>
             <div><span className='border'></span></div>
             <div><span className='border'>احمد و رعنا نوروزی و آقا پور</span></div>
             <div><span className='border'></span></div>
             <div><span className='border'></span></div>
-            <div><span className='border'>1397/03/08</span></div>
+            <div><span className='border'>{formatFarsiDate('5-29-2018')}</span></div>
             <div><span className='border'>طراحی عمران</span></div>
             <div><span className="faild border"><a>برگشت شده</a></span></div>
             <div><span className="note border">
@@ -169,6 +169,7 @@ render(){
             </span></div>
           </div>
           </div>
+          <a className='Num' href='/'>{formatFarsiNumber(1)}</a>
       </div>
 
     )
