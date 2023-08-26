@@ -89,7 +89,7 @@ h5{
 .firstrow{
     display: contents;
 }
-.hover:hover{
+.hover div:hover{
     background-color: #4286f433;
 }
 .back{
