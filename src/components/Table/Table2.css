@@ -1,0 +1,19 @@
+.TableDiv{
+    direction: rtl;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 1000px;
+    overflow: hidden;
+}
+.Number{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.427);
+    color: black;
+    margin-right: 98%;
+    opacity: 40%;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;   
+    font-size: 10px; 
+}

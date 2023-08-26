@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./Table.css";
+import "./Table2.css";
 import Red from './R.png';
 import Yellow from './yellow-circle.png';
 import Note from './notepad.jpeg';
@@ -12,18 +12,17 @@ const formatFarsiNumber = (number) => {
 };
 
 
-class Table extends Component{
+class Table2 extends Component{
 
 render(){
     return(
-<div className='Tablediv'>
+<div className='TableDiv'>
       <h5>گزارش پروژه ها</h5>
       <a href='/Empty'><img src={arrow} className="arrow" alt="arrow" /></a>
       <a href='/Empty'><img src={magnifier} className="magnifier" alt="magnifier" /></a>
-      <span className='page'>از{formatFarsiNumber(1)}تا{formatFarsiNumber(6)} از{formatFarsiNumber(6)}
-      <a href="/Empty"><img  src={P} className="P" alt="P"/></a>
-      <a href="/Empty"><img src={N} className="N" alt="N"/></a>
-      </span>
+      <span className='page'>از{formatFarsiNumber(1)}تا{formatFarsiNumber(6)} از{formatFarsiNumber(6)}</span>
+      <a><img src={P} className="P" alt="P"/></a>
+      <a><img src={N} className="N" alt="N"/></a>
       <div className="table1">
           <div className='firstrow'>
             <span className='head'></span>
@@ -166,12 +165,12 @@ render(){
           </div>
           </div>
 
-          <a className='Num' href='/First'>{formatFarsiNumber(1)}</a>
+          <a className='Number' href='/First'>{formatFarsiNumber(1)}</a>
       </div>
 
     )
   }
 }
 
-export default Table;
+export default Table2;
 

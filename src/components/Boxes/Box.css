@@ -1,15 +1,3 @@
-.body{
-    background-color: rgba(241, 241, 241, 0.571);
-    font-family: Vazir;
-    position: relative;
-    height: 800px;
-}
-.grid-item1{
-    background-color: white;
-    display: grid;
-    height: 700px;
-    width: 250px;
-}
 .dot{
     height: 100px;
     width: 100px;
@@ -29,7 +17,7 @@
     margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
-  }
+}
 .percent{
     padding-right: 25px;
     font-size: 15px;
@@ -49,7 +37,7 @@
     mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
 }
 .B{
-    margin-top: -110px;
+    margin-top: -20px;
 }
 .Button{
     font-family: Vazir;
@@ -62,33 +50,34 @@
     border-radius: 5px;
 }
 .Info{
+    margin-top: 5px;
     height: 11px;
     width: 11px;
 }
 .sidetop{
-    border-bottom: 1px solid rgba(226, 226, 226, 0.392) ;
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(226, 226, 226, 0.392) ;
     font-size: 10px;
-    width: 200px;
+    width: 100%;
     border-collapse: collapse;
     height: 75px;
-    margin-top: -150px;
-    margin-right: 20px;
 }
 .gray{
     color:#c2c2c2;
     padding-left: 20px;
 }
+.black{
+    color: #000;
+}
 .sidemiddle{
-    margin-top: -155px;
+    margin-top: 10px;
     margin-right: 20px;
 }
 
 .sidedown{
-    border-top: 1px solid rgba(226, 226, 226, 0.392) ;
-    margin-top: -170px;
+    margin-top: 10px;
+    border-top: 2px solid rgba(226, 226, 226, 0.392) ;
     padding-top: 20px;
-    width: 200px;
-
 }
 .ID{
     height: 15px;
@@ -137,12 +126,9 @@
     cursor: pointer;
 } 
 .section1{
-    background-color: white;
+
     box-sizing: border-box;
-    border-radius: 5px;
-    margin-top: -690px;
     margin-right: 260px;
-    height: 215px;
     margin-left: 10px;
     font-size: 13px;
 }
@@ -271,4 +257,51 @@ td{
     transition: 0.5s;
     overflow-y: auto;
 }
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 100px;
+  }
+  .box2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    box-shadow: 0 0 0 15px;
+  }
+  .box3 {
+    margin-right: 10px;
+    margin-top: 10px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
 
+  }
+  .box5 {
+    margin-top: 10px;
+    margin-right: 10px;
+    grid-column-end: 6;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  
+* {
+    box-sizing: border-box;
+    font-family: Vazir;
+}
+  
+  .wrapper {
+    border-radius: 5px;
+    color: rgb(163, 163, 163);
+    background-color: rgba(195, 195, 195, 0.205);
+  }
+  
+  .wrapper > div {
+    box-shadow: 3px 3px 5px 5px rgba(220, 220, 220, 0.379);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+  }
+  

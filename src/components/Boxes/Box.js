@@ -9,9 +9,8 @@ import './Box.css';
 class Box extends Component{
 render(){
 return(
-<div className='body'>
-  <div class="grid-item1">
-        <div class="pie"><div className='dot'><span className='percent'>100% <span className='percent1'>تکمیل شده</span></span></div></div>
+<div class="wrapper">
+  <div class="box2"> <div class="pie"><div className='dot'><span className='percent'>100% <span className='percent1'>تکمیل شده</span></span></div></div>
       <div className='B'>
         <button className='Button'>ارسال اطلاعات</button>
       </div>
@@ -24,12 +23,12 @@ return(
       <tr>
         <td></td>
         <td className='gray'>پلاک ثبتی</td>
-        <td>10613/318</td>
+        <td className='black'>10613/318</td>
       </tr>
       <tr>
         <td></td>
         <td className='gray'>مالک</td>
-        <td>محمدرضا سرخوش</td>
+        <td className='black'>محمدرضا سرخوش</td>
       </tr>
     </table>
     <div className='sidemiddle'>
@@ -48,8 +47,7 @@ return(
       <button className='Bth'><img src={status} className='status' alt="status" />وضعیت دفترچه</button>
     </div>
   </div>
-  <div className='grid-item2'>
-    <section className='section1'>
+  <div class="box3"><section className='section1'>
         <img src={Check} className="Check" alt="Check" />
         <a className='topic'>مشخصات کلی</a>
       <div className='border'>
@@ -83,8 +81,7 @@ return(
       </div>
     </section>
   </div>
-  <div class="grid-item3">
-    <section className='section2'>
+  <div class="box5"><section className='section2'>
         <img src={Check} className="Check" alt="Check" />
         <a className='topic'>وضعیت تکمیل دفترچه</a>
       <div className='border'>
@@ -125,6 +122,6 @@ return(
     </section>
   </div>
 </div>
+
 )}}
 export default Box;
-                        
