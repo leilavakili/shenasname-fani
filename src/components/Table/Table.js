@@ -56,7 +56,9 @@ render(){
             <div className='back'><span className='border'>اجراء مجری</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div className='back'><span className="note border">
-              <img src={Note} className="Note" alt="Note" onClick={"/Second"} />
+              <a className='BN' href="/Second">
+                <img src={Note} className="Note" alt="Note" />
+              </a>
             </span></div>
           </div>
           <div className='row hover'>
@@ -75,7 +77,7 @@ render(){
             <div><span className='border'>اجراء مجری</span></div>
             <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div><span className="note border">
-              <a href="http://localhost:3000/Second">
+              <a className='BN' href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span></div>
@@ -96,7 +98,7 @@ render(){
             <div className='back'><span className='border'>اجراء مجری</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل شما</a></span></div>
             <div className='back'><span className="note border">
-              <a href="http://localhost:3000/Second">
+              <a className='BN' href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span></div>
@@ -117,7 +119,7 @@ render(){
             <div><span className='border'>طراحی عمران</span></div>
             <div><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div><span className="note border">
-              <a href="http://localhost:3000/Second">
+              <a className='BN' href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span></div>
@@ -138,7 +140,7 @@ render(){
             <div className='back'><span className='border'>طراحی عمران</span></div>
             <div className='back'><span className="waiting border"><a>منتظر تکمیل سایرین</a></span></div>
             <div className='back'><span className="note border">
-              <a href="http://localhost:3000/Second">
+              <a className='BN' href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span></div>
@@ -159,7 +161,7 @@ render(){
             <div><span className='border'>طراحی عمران</span></div>
             <div><span className="faild border"><a>برگشت شده</a></span></div>
             <div><span className="note border">
-              <a href="/Second">
+              <a className='BN' href="/Second">
                 <img src={Note} className="Note" alt="Note" />
               </a>
             </span></div>

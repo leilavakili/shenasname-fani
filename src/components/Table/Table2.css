@@ -17,3 +17,6 @@
     padding-right: 5px;   
     font-size: 10px; 
 }
+.hover div:hover{
+    background-color: #4286f433;
+}
