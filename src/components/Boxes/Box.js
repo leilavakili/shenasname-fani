@@ -4,6 +4,7 @@ import Check from './Check.jpeg';
 import Info from './info.jpeg';
 import ID from './Id.jpeg';
 import TI from './TI.jpeg';
+import Contact from './contact.png';
 import status from './status.jpeg';
 import './Box.css';
 const formatFarsiNumber = (number) => {
@@ -62,8 +63,8 @@ return(
           </tr>
           <tr>
             <td></td>
-            <td>{formatFarsiNumber(137)}{formatFarsiNumber(835)}</td>
-            <td>{formatFarsiNumber(106)}{formatFarsiNumber(13)}/{formatFarsiNumber(318)}</td>
+            <td className='data'>{formatFarsiNumber(137)}{formatFarsiNumber(835)}</td>
+            <td className='data'>{formatFarsiNumber(106)}{formatFarsiNumber(13)}/{formatFarsiNumber(318)}</td>
           </tr>
         </table>
       </div>
@@ -74,7 +75,7 @@ return(
             <th>کد ملی مالک</th>
           </tr>
           <tr>
-            <td>محمدرضا سرخوش</td>
+            <td className='data'>محمدرضا سرخوش</td>
             <td></td>
           </tr>
         </table>
@@ -87,10 +88,14 @@ return(
   <div class="box5"><section className='section2'>
         <img src={Check} className="Check" alt="Check" />
         <a className='topic'>وضعیت تکمیل دفترچه</a>
+        <a className='blue'><img src={Contact} className="Contact" alt="Contact"/>نقش شما:اجرای مجری</a>
       <div className='Border'>
         <table className='table4'>
           <tr>
             <th>تعداد کل جداول</th>
+          </tr>
+          <tr>
+             <td className='data'>{formatFarsiNumber(19)}</td>
           </tr>
         </table>
       </div>
@@ -102,9 +107,9 @@ return(
             <th>جدول در انتظار تکمیل شما</th>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td><span className='red'></span></td>
+            <td className='data'>{formatFarsiNumber(13)}</td>
+            <td className='data'>{formatFarsiNumber(13)}</td>
+            <td className='data'><span className='red'>{formatFarsiNumber(0)}</span></td>
           </tr>
         </table>
       </div>
@@ -116,9 +121,9 @@ return(
             <th>بخش های ارسال نشده</th>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td><span className='red'></span></td>
+            <td className='data'>{formatFarsiNumber(5)}</td>
+            <td className='data'>{formatFarsiNumber(1)}</td>
+            <td className='data'><span className='red'>{formatFarsiNumber(4)}</span></td>
           </tr>
         </table>
       </div>
