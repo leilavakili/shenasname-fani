@@ -119,6 +119,10 @@
     height: 30px;
     margin-right: 10px;
 }
+.Bth a{
+    text-decoration: none;
+    color: #000;
+}
 .Bth:hover{
     width: 220px;
     background-color: #2195f313;
@@ -208,7 +212,7 @@ td{
     border: none;
     text-align: right;
     outline: none;
-    transition: 0.1s;
+    transition: 0.4s;
     color: #2196F3;
     font-size: 13px;
     padding-top: 0;
@@ -231,6 +235,7 @@ td{
     transition: 0.5s;
     overflow-y: visible;
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

@@ -38,17 +38,17 @@ return(
     <div className='sidemiddle'>
       <div className='accordion'>
         <button class="label">پیوست ها</button>
-          <div class="content"><span>nothings to show</span></div>
+          <div class="content">nothings to show</div>
         <button class="label"> ارجاع به جانشین</button>
-          <div class="content"><span>nothings to show</span></div>
+          <div class="content">nothings to show</div>
         <button class="label"> سوابق ارسال</button>
-          <div class="content"><span>nothings to show</span></div>
+          <div class="content">nothings to show</div>
       </div>
     </div>
     <div className='sidedown'>
       <button className='B1'><img src={ID} className="ID" alt="ID" />مشخصات دفترچه</button>
-      <button className='Bth'><img src={TI} className="TI" alt="TI" />جداول اطلاعاتی</button>
-      <button className='Bth'><img src={status} className='status' alt="status" />وضعیت دفترچه</button>
+      <button className='Bth'><a href='/Empty'><img src={TI} className="TI" alt="TI" />جداول اطلاعاتی</a></button>
+      <button className='Bth'><a href='/Empty'><img src={status} className='status' alt="status" />وضعیت دفترچه</a></button>
     </div>
   </div>
   <div class="box3"><section className='section1'>
